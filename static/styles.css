@@ -137,3 +137,14 @@ body {
   opacity: 0.8;
   margin-top: -15px;
 }
+
+.markdown-body > pre {
+  text-align: left;
+  width: 400px;
+}
+
+.about {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 4rem;
+}

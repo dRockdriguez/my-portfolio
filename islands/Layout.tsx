@@ -1,10 +1,12 @@
 import gsap from "gsap/";
 import ScrollTrigger from "gsap/ScrollTrigger";
-
 import { useEffect, useState } from "preact/hooks";
+import AboutMe from "./AboutMe.tsx";
 import Presentation from "../components/Presentation.tsx";
 
-export default function Layout() {
+export default function Layout(props) {
+  const { aboutme } = props;
+
   const [preload, setPreload] = useState(true);
 
   useEffect(() => {
@@ -47,11 +49,11 @@ export default function Layout() {
       <div
         class={preload ? "horizontal-scroll preload" : "horizontal-scroll"}
       >
-        <div class="panel">
-          asdfasdf
+        <div class="panel" style="background:blue">
+          <AboutMe aboutme={aboutme}></AboutMe>
         </div>
 
-        <section class="panel" style="background:blue">
+        <section class="panel">
           ONE
         </section>
         <section class="panel">
