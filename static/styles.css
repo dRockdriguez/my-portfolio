@@ -117,7 +117,7 @@ body {
 }
 
 .networks {
-  bottom: 30px;
+  bottom: 70px;
   position: absolute;
   display: flex;
   flex-flow: row wrap;
