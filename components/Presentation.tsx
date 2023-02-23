@@ -7,7 +7,7 @@ export default function Presentation() {
 
   return (
     <>
-      <div class="h-full flex flex-col justify-center items-center text-center p-9 relative">
+      <div class="presentation h-full flex flex-col justify-center items-center text-center p-9 relative">
         <h2 class="text-xl">Hola ✋, soy</h2>
         <h1 class="title mt-4">David Rodríguez</h1>
         <h2 class="text-xl mt-4">

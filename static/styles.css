@@ -41,6 +41,10 @@ body {
   -o-transition: none !important;
 }
 
+.presentation {
+  margin-top: -160px;
+}
+
 .panel {
   width: 100%;
   height: 100vh;
