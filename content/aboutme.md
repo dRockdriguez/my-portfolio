@@ -3,30 +3,25 @@ title: Sobre mí
 ---
 
 ```json
- {
-  frontendTechnologies: [
+{
+  "frontendTechnologies": [
+    "JavaScript",
     "HTML",
     "CSS",
-    "JavaScript",
     "React",
-    "Redux",
     "Angular",
     "TypeScript",
     "EmberJS",
-    "Ionic",
+    "Ionic"
   ],
-  backendTechnologies: [
-    "Java", 
-    "PHP", 
-    "NodeJS", 
-    "Python", 
-    "SpringBoot"
+  "backendTechnologies": [
+    "Java",
+    "NodeJS"
   ],
-  databases: [
-    "MySQL", 
-    "MongoDB", 
-    "PostgreSQL", 
-    "SQLite"
-  ],
+  "databases": [
+    "MySQL",
+    "MongoDB",
+    "PostgreSQL"
+  ]
 }
 ```
