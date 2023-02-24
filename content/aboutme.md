@@ -20,8 +20,7 @@ title: Sobre mí
   ],
   "databases": [
     "MySQL",
-    "MongoDB",
-    "PostgreSQL"
-  ]
+    "MongoDB"
+s  ]
 }
 ```
